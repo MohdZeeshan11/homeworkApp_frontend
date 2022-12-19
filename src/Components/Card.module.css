@@ -1,0 +1,61 @@
+.outerContainer {
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  width: 328px;
+  margin: auto;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* height: 199px; */
+  position: relative;
+  top: 6px;
+}
+
+.btn {
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  height: 40px;
+  /* width: 328px; */
+}
+
+.gameTitle {
+  /* width: 229px; */
+  height: 25px;
+
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #333333;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.text{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* or 129% */
+
+
+color: #333333;
+}
+
+.date {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  color: #3f3f3f;
+}

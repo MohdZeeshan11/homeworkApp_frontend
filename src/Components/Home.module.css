@@ -1,0 +1,105 @@
+.outerContainer{
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    /* margin-top: 40px; */
+    width: 400px;
+    margin: auto;
+    /* display: flex; */
+    height: 98vh;
+    position: relative;
+    top: 6px;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+ 
+}
+.container{
+    padding-top: 174px;
+    
+}
+.middleBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{   
+    font-family: 'Bilbo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+}
+.headingBox {
+    font-family: 'Bilbo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 96px;
+    font-size: 70px;
+    line-height: 120px;
+    text-align: center;
+    color: #000000;
+}
+.btnBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 500px; */
+    /* margin: au
+    to; */
+}
+
+.btn {
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    /* height: 56px; */
+    width: 328px;
+  }
+@media (min-width: 360px) and (max-width: 720px) {
+    /* body{
+        overflow-x: hidden;
+    } */
+    .outerContainer{
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        /* margin: auto; */
+        /* max-width: 400px; */
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }    
+
+    .container{
+        padding-top: 174px;
+        /* width: 0px; */
+        /* overflow-x: hidden; */
+    }
+    .title{   
+        font-family: 'Bilbo';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 45px;
+        color: #000000;
+    }
+    .headingBox {
+        font-family: 'Bilbo';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 96px;
+        font-size: 70px;
+        line-height: 120px;
+        text-align: center;
+        color: #000000;
+    }
+    .btn {
+      box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+      border-radius: 8px;
+      height: 56px;
+    }
+}
