@@ -1,0 +1,16 @@
+
+Tic Tac Toe game
+
+projectUrl=https://homeworkappproject.onrender.com
+
+For building the UI of the project i used CSS framework Tailwind CSS which is helped my to write CSS
+for our project very efficient manner
+
+I used React fully featured components library Mantine which make my task easy for writing the components
+
+// start the server for backend
+node app.js
+
+// for run frontend project
+npm start
+
