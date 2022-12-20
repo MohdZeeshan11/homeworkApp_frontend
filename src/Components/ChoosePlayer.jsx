@@ -61,7 +61,7 @@ const ChoosePlayer = () => {
 
   const saveHandler = async () => {
     if (validate()) {
-      const resp =  await axios.post("http://localhost:5000/user/get-player", {
+      const resp =  await axios.post("https://homeworkappproject-backend.onrender.com/user/get-player", {
           email: input.email,
         },{
           headers: headersProvider(),

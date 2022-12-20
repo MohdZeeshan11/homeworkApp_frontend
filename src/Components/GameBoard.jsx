@@ -62,7 +62,7 @@ const GameBoard = () => {
 
     await axios
       .post(
-        "http://localhost:5000/user/index-value",
+        "https://homeworkappproject-backend.onrender.com/user/index-value",
         {
           userName: playerName,
           arrayData: [...copyBoxValue],
@@ -81,7 +81,7 @@ const GameBoard = () => {
 
   const getData = async () => {
     const resp = await axios
-      .get(`http://localhost:5000/user/index-value/${playerName}`, {
+      .get(`https://homeworkappproject-backend.onrender.com/user/index-value/${playerName}`, {
         headers: headersProvider(),
       })
       .catch((e) => {
@@ -102,7 +102,7 @@ const GameBoard = () => {
     }
     await axios
       .post(
-        `http://localhost:5000/user/card`,
+        `https://homeworkappproject-backend.onrender.com/user/card`,
         { playerName, time: new Date(), msg },
         {
           headers: headersProvider(),
@@ -125,7 +125,7 @@ const GameBoard = () => {
     console.log("get winner = ", isWinner);
     await axios
       .post(
-        "http://localhost:5000/user/card/winnerValue",
+        "https://homeworkappproject-backend.onrender.com/user/card/winnerValue",
         {
           userName: playerName,
           winnerValue: isWinner,

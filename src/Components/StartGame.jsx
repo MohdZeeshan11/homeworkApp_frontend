@@ -15,7 +15,7 @@ export const StartGame = () => {
 
   const getAllUserData = async () => {
     const resp = await axios
-      .get("http://localhost:5000/user/card/details", {
+      .get("https://homeworkappproject-backend.onrender.com/user/card/details", {
         headers: headersProvider(),
       })
       .catch((e) => {
