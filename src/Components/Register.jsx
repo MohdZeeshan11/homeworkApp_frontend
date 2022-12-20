@@ -81,7 +81,7 @@ const Register = () => {
     // console.log("button clicked");
     if (validate()) {
       const resp = await axios
-        .post("http://localhost:5000/user/register", {
+        .post("https://homeworkappproject-backend.onrender.com/user/register", {
           name: input.name,
           email: input.email,
           userName: input.userName,

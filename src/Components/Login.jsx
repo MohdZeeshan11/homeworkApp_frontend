@@ -66,7 +66,7 @@ const Login = () => {
     // console.log('button clicked')
     if (validate()) {
       const resp = await axios
-        .post("http://localhost:5000/user/login", {
+        .post("https://homeworkappproject-backend.onrender.com", {
           userName: input.userName,
           password: input.password,
         },{
